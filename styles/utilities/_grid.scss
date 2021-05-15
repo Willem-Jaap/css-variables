@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    gap: 2rem;
+
+    @for $i from 2 through 12 {
+        &--#{$i} {
+            @extend .grid;
+            grid-template-columns: repeat($i, 1fr);
+        }
+    }
+
+    @for $i from 2 through 12 {
+        &-span--#{$i} {
+            grid-column: span $i;
+        }
+    }
+
+    @for $i from 2 through 12 {
+        &-row-span--#{$i} {
+            grid-row: span $i;
+        }
+    }
+
+    &__item {
+        width: 100%;
+    }
+}

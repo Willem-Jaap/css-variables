@@ -1,0 +1,17 @@
+{
+    "name": "css-variables",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "live-server --port=5005",
+        "watch": "sass --watch --no-source-map ./styles/style.scss ./styles/style.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "live-server": "^1.2.1",
+        "sass": "^1.32.13"
+    }
+}
