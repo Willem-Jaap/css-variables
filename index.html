@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="./styles/style.css" />
     </head>
     <body>
-        <h1>CSS Variables</h1>
+        <h1 class="page__title">CSS Variables</h1>
         <div class="page">
-            <main class="main">
+            <main class="page__card main">
                 <div class="label">Header 1</div>
                 <h1>Lorem Ipsum</h1>
                 <div class="label">Header 2</div>
@@ -25,16 +25,34 @@
                 <h6>Lorem Ipsum</h6>
                 <div class="label">Paragraph</div>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem consequatur delectus minus,
-                    autem earum ex nisi quia vel voluptatibus consequuntur optio id assumenda, facere expedita? Aliquam
-                    repellendus omnis architecto delectus!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Exercitationem consequatur delectus minus, autem earum ex
+                    nisi quia vel voluptatibus consequuntur optio id assumenda,
+                    facere expedita? Aliquam repellendus omnis architecto
+                    delectus!
                 </p>
                 <div class="label">Buttons</div>
 
                 <button class="btn btn--primary">Button</button>
                 <button class="btn btn--border">Button</button>
             </main>
-            <aside class="sidebar"></aside>
+            <aside class="page__card sidebar">
+                <h2 class="subtitle">Settings</h2>
+                <div class="label">Header 1</div>
+                <input type="range" name="range-h1" id="range-h1" />
+                <div class="label">Header 2</div>
+                <input type="range" name="range-h2" id="range-h2" />
+                <div class="label">Header 3</div>
+                <input type="range" name="range-h3" id="range-h3" />
+                <div class="label">Header 4</div>
+                <input type="range" name="range-h4" id="range-h4" />
+                <div class="label">Header 5</div>
+                <input type="range" name="range-h5" id="range-h5" />
+                <div class="label">Header 6</div>
+                <input type="range" name="range-h6" id="range-h6" />
+                <div class="label">Normal text</div>
+                <input type="range" name="range-p" id="range-p" />
+            </aside>
         </div>
     </body>
 </html>
