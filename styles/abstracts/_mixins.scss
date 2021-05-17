@@ -1,3 +1,13 @@
+// Usage: @include variable(background, $var-page-bg, $off)
+@mixin variable($property, $var, $fallback: false) {
+    @if $fallback {
+        #{$property}: #{$fallback};
+        #{$property}: var(#{$var});
+    } @else {
+        #{$property}: var(#{$var});
+    }
+}
+
 @mixin breakpoint($point) {
     @if $point == huge {
         @media (max-width: $breakpoint-huge) {

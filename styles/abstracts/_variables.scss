@@ -5,8 +5,17 @@
 $poppins: "Poppins";
 
 /* ============================= */
+//  VARIABLES
+/* ============================= */
+$var-page-bg: --page-bg;
+/* ============================= */
 //  COLORS
 /* ============================= */
+$white: #fcfdfc;
+$off-white: #f7f7f7;
+$light-gray: #f2f2f2;
+$gray: #cdcdcd;
+$black: #0c0c0c;
 
 /* ============================= */
 //  BREAKPOINTS
@@ -20,7 +29,8 @@ $breakpoint-tiny: 30rem;
 /* ============================= */
 //  BORDER
 /* ============================= */
-$border-radius: 0.5rem;
+$border: 2px solid $light-gray;
+$border-radius: 0.75rem;
 
 /* ============================= */
 //  WIDTH
