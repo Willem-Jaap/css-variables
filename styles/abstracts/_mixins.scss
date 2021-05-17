@@ -2,7 +2,7 @@
 @mixin variable($property, $var, $fallback: false) {
     @if $fallback {
         #{$property}: #{$fallback};
-        #{$property}: var(#{$var});
+        #{$property}: var(#{$var}, $fallback);
     } @else {
         #{$property}: var(#{$var});
     }
