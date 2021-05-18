@@ -16,7 +16,7 @@ body {
     height: 100vh;
     color: $black;
 
-    @include variable(background, $var-page-bg, $black);
+    @include variable(background, $var-page-bg, $off-white);
 }
 
 button {

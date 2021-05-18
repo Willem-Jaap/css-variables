@@ -1,0 +1,7 @@
+.btn {
+    height: 4rem;
+    min-width: 15rem;
+
+    @include variable(background, $var-btn-bg, $blue);
+    @include flexCenter;
+}
