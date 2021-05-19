@@ -33,9 +33,9 @@ h6 {
 }
 
 p {
-    font-size: 1rem;
     font-weight: 500;
     line-height: 1.5rem;
+    @include variable(font-size, $var-p-fs, $p-fs);
 }
 
 .t {

@@ -10,8 +10,13 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
             rel="stylesheet"
         />
-
+        <style id="style-variables">
+            :root {
+            }
+        </style>
         <link rel="stylesheet" href="./styles/style.css" />
+
+        <script defer src="./scripts/script.js"></script>
     </head>
     <body>
         <h1 class="page__title">CSS Variables</h1>
@@ -49,45 +54,78 @@
                     type="range"
                     name="range-h1"
                     id="range-h1"
-                    class="input"
+                    class="input input--range"
+                    data-range="h1-fs"
+                    min="2.3"
+                    max="3.0"
+                    step="0.1"
                 />
                 <label class="label" for="range-h2">Header 2</label>
                 <input
                     type="range"
                     name="range-h2"
                     id="range-h2"
-                    class="input"
+                    class="input input--range"
+                    data-range="h2-fs"
+                    min="2.0"
+                    max="2.6"
+                    step="0.1"
                 />
                 <label class="label" for="range-h3">Header 3</label>
                 <input
                     type="range"
                     name="range-h3"
                     id="range-h3"
-                    class="input"
+                    class="input input--range"
+                    data-range="h3-fs"
+                    min="2.0"
+                    max="2.3"
+                    step="0.1"
                 />
                 <label class="label" for="range-h4">Header 4</label>
                 <input
                     type="range"
                     name="range-h4"
                     id="range-h4"
-                    class="input"
+                    class="input input--range"
+                    data-range="h4-fs"
+                    min="1.4"
+                    max="2.0"
+                    step="0.1"
                 />
                 <label class="label" for="range-h5">Header 5</label>
                 <input
                     type="range"
                     name="range-h5"
                     id="range-h5"
-                    class="input"
+                    class="input input--range"
+                    data-range="h5-fs"
+                    min="1.4"
+                    max="1.7"
+                    step="0.1"
                 />
                 <label class="label" for="range-h6">Header 6</label>
                 <input
                     type="range"
                     name="range-h6"
                     id="range-h6"
-                    class="input"
+                    class="input input--range"
+                    data-range="h6-fs"
+                    min="0.8"
+                    max="1.4"
+                    step="0.1"
                 />
                 <label class="label" for="range-p">Normal text</label>
-                <input type="range" name="range-p" id="range-p" class="input" />
+                <input
+                    type="range"
+                    name="range-p"
+                    id="range-p"
+                    class="input input--range"
+                    data-range="p-fs"
+                    min="0.8"
+                    max="1.2"
+                    step="0.1"
+                />
             </aside>
         </div>
     </body>
