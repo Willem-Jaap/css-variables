@@ -1,40 +1,40 @@
 body {
-    font-family: "Poppins";
+    font-family: "Raleway", sans-serif;
 }
 
 h1 {
-    font-size: 2.4rem;
-    font-weight: 600;
+    font-weight: 700;
+    @include variable(font-size, $var-h1-fs, $h1-fs);
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
+    @include variable(font-size, $var-h2-fs, $h2-fs);
 }
 
 h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 700;
+    @include variable(font-size, $var-h3-fs, $h3-fs);
 }
 
 h4 {
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 700;
+    @include variable(font-size, $var-h4-fs, $h4-fs);
 }
 
 h5 {
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 700;
+    @include variable(font-size, $var-h5-fs, $h5-fs);
 }
 
 h6 {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
+    @include variable(font-size, $var-h6-fs, $h6-fs);
 }
 
 p {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5rem;
 }
 

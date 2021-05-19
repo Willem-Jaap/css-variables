@@ -5,25 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CSS Variables | Proof of concept</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="./styles/style.css" />
     </head>
     <body>
         <h1 class="page__title">CSS Variables</h1>
         <div class="page">
             <main class="page__card main">
-                <div class="label">Header 1</div>
+                <label class="label">Header 1</label>
                 <h1>Lorem Ipsum</h1>
-                <div class="label">Header 2</div>
+                <label class="label">Header 2</label>
                 <h2>Lorem Ipsum</h2>
-                <div class="label">Header 3</div>
+                <label class="label">Header 3</label>
                 <h3>Lorem Ipsum</h3>
-                <div class="label">Header 4</div>
+                <label class="label">Header 4</label>
                 <h4>Lorem Ipsum</h4>
-                <div class="label">Header 5</div>
+                <label class="label">Header 5</label>
                 <h5>Lorem Ipsum</h5>
-                <div class="label">Header 6</div>
+                <label class="label">Header 6</label>
                 <h6>Lorem Ipsum</h6>
-                <div class="label">Paragraph</div>
+                <label class="label">Paragraph</label>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Exercitationem consequatur delectus minus, autem earum ex
@@ -38,20 +44,50 @@
             </main>
             <aside class="page__card sidebar">
                 <h2 class="subtitle">Settings</h2>
-                <div class="label">Header 1</div>
-                <input type="range" name="range-h1" id="range-h1" />
-                <div class="label">Header 2</div>
-                <input type="range" name="range-h2" id="range-h2" />
-                <div class="label">Header 3</div>
-                <input type="range" name="range-h3" id="range-h3" />
-                <div class="label">Header 4</div>
-                <input type="range" name="range-h4" id="range-h4" />
-                <div class="label">Header 5</div>
-                <input type="range" name="range-h5" id="range-h5" />
-                <div class="label">Header 6</div>
-                <input type="range" name="range-h6" id="range-h6" />
-                <div class="label">Normal text</div>
-                <input type="range" name="range-p" id="range-p" />
+                <label class="label" for="range-h1">Header 1</label>
+                <input
+                    type="range"
+                    name="range-h1"
+                    id="range-h1"
+                    class="input"
+                />
+                <label class="label" for="range-h2">Header 2</label>
+                <input
+                    type="range"
+                    name="range-h2"
+                    id="range-h2"
+                    class="input"
+                />
+                <label class="label" for="range-h3">Header 3</label>
+                <input
+                    type="range"
+                    name="range-h3"
+                    id="range-h3"
+                    class="input"
+                />
+                <label class="label" for="range-h4">Header 4</label>
+                <input
+                    type="range"
+                    name="range-h4"
+                    id="range-h4"
+                    class="input"
+                />
+                <label class="label" for="range-h5">Header 5</label>
+                <input
+                    type="range"
+                    name="range-h5"
+                    id="range-h5"
+                    class="input"
+                />
+                <label class="label" for="range-h6">Header 6</label>
+                <input
+                    type="range"
+                    name="range-h6"
+                    id="range-h6"
+                    class="input"
+                />
+                <label class="label" for="range-p">Normal text</label>
+                <input type="range" name="range-p" id="range-p" class="input" />
             </aside>
         </div>
     </body>
